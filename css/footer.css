@@ -1,0 +1,11 @@
+.page-footer {
+  background-color: var(--navy-blue);
+}
+
+.footer-description {
+  color: var(--cloud);
+}
+
+.footer-logo {
+  color: var(--cloud);
+}

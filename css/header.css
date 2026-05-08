@@ -1,0 +1,23 @@
+.header-logo {
+  font-family: var(--second-family);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  color: var(--navy-blue);
+}
+
+/*-------------header section-----------------*/
+
+.header-nav-list-item-link {
+  font-weight: 500;
+  color: var(--navy-blue);
+}
+
+.header-nav-list-item-link:hover,
+.header-address-list-item-link:hover,
+.header-nav-list-item-link:focus,
+.header-address-list-item-link:focus {
+  color: var(--ocean);
+}

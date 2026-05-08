@@ -1,0 +1,11 @@
+.team {
+  background: var(--cloud);
+}
+
+.team-list-item {
+  background: var(--white);
+}
+
+.team-list-member-description {
+  text-align: center;
+}
