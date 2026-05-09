@@ -1,0 +1,25 @@
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.portfolio-list-item {
+  flex-basis: calc((100% - 72px) / 3);
+}
+
+.portfolio-list-item-img {
+  display: block;
+  width: 100%;
+}
+
+.portfolio-list-item-card {
+  border-bottom: 1px solid var(--cornflower);
+  border-left: 1px solid var(--cornflower);
+  border-right: 1px solid var(--cornflower);
+  padding: 32px 16px;
+}
+
+.portfolio-list-item-header {
+  margin-bottom: 8px;
+}

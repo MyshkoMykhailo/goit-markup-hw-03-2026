@@ -1,8 +1,14 @@
 .hero {
+  padding: 180px 0;
   background-color: var(--navy-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .hero-header {
+  max-width: 496px;
+  margin-bottom: 48px;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07143;
@@ -12,10 +18,13 @@
 }
 
 .hero-button {
+  padding: 16px 32px;
+  border-radius: 4px;
   background-color: var(--iris);
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white);
+  border: none;
 }
 .hero-button:hover,
 .hero-button:focus {
