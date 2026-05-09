@@ -21,14 +21,14 @@
   gap: 40px;
 }
 
-.logo,
+.header-logo,
 .header-nav-list-item-link,
 .header-address-list-item-link {
   display: block;
   padding: 24px 0;
 }
 
-.header-logo {
+/*.header-logo {
   font-family: var(--second-family);
   text-transform: uppercase;
   font-weight: 700;
@@ -36,9 +36,7 @@
   line-height: 1.33;
   letter-spacing: 0.03em;
   color: var(--navy-blue);
-}
-
-/*-------------header section-----------------*/
+}*/
 
 .header-nav-list-item-link {
   font-weight: 500;
